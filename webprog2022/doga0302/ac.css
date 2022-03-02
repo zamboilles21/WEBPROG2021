@@ -1,0 +1,48 @@
+body{
+    background-image: url('hatter.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #504033;
+    font-family: 'Lucida Sans',monospace,Monaco;
+    font-size: large;
+    margin-left: 250px;
+    margin-right: 250px;
+    line-height: 1.5;
+}
+.keret{
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(158, 158, 158, 0.8));
+    opacity: 0.8;
+    padding: 15px;
+}
+h1,h2{
+    text-decoration: underline;
+    font-size: xx-large;
+    text-align: center;
+    text-shadow: 2px 2px 4px red;
+}
+p{
+    text-indent: 25px;
+}
+#emlek{
+    width: 180px;
+    float: left;
+    margin-right: 15px;
+    border: 15px solid #504033;
+    border-style: groove;
+
+}
+.konyv{
+    height: 300px;
+    align-content: left;
+
+}
+ul{
+    list-style-image: url('dot.png');
+}
+hr{
+    height: 5px;
+    width: 90%;
+    color: #504033;
+    text-shadow:2px 2px black;
+}
