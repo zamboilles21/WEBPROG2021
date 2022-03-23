@@ -7,7 +7,30 @@
   #grid > div {
     font-size: 2vw;
     padding: .1em;
-    background: gold;
+    background: slateblue;
     text-align: center;
   }
+  body{
+    background-color: lavender;
+  }
+  .flex-container2 {
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  nav{
+    background-color: black;
+    opacity: 0.8;
+    height: 100px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: cornsilk;
+   
+  
+}
   
