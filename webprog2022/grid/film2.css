@@ -5,6 +5,12 @@
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     grid-gap: 2vw;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    justify-content: center;
+    justify-self: center;
+    
     }
     
     
@@ -30,6 +36,7 @@
         align-content: center;
         flex-direction: row;
         justify-content: space-around;
+
       }
       nav{
         background-color: black;
