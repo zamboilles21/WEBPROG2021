@@ -1,0 +1,31 @@
+.kepernyo{
+    width: 500px;
+}
+
+.kepernyo2{
+    width: 600px;
+}
+.an1:hover { width: 380px; height: fit-content; }
+
+.an2:active { width: 160px; height: 50px; }
+
+.an3:hover{transform: rotate(360deg);
+            transition-duration: 5s;
+            width: 380px; height: fit-content;}
+            
+.an4:hover {
+    transform:translateX(500px)  ;
+}
+.an5:hover{
+    transition-duration: 5s;
+    transform:translateX(500px)  ;
+    transition-timing-function: ease-in-out;
+}
+.an6:hover {
+    transform:translateX(500px)  ;
+    transform: scale3d(500px);
+    transform-origin: center;
+    transition: ease-out;
+    transform: perspective();
+    transform: skew(10px);
+}
