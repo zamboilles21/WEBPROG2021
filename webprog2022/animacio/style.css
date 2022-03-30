@@ -17,9 +17,10 @@
     transform:translateX(500px)  ;
 }
 .an5:hover{
-    transition-duration: 5s;
+    transition-duration: 6s;
     transform:translateX(500px)  ;
     transition-timing-function: ease-in-out;
+    
 }
 .an6:hover {
     transform:translateX(500px)  ;
