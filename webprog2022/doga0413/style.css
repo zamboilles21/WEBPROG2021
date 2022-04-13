@@ -39,6 +39,16 @@ body
   a:hover{
       color: violet;
       background-color: turquoise;
+      animation-name: example;
+     animation-duration: 15s;
+     animation-iteration-count: infinite;
+  }
+  @keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    75% {background-color: pink;}
+    100% {background-color: green;}
   }
   h4{
       text-align: justify;
@@ -49,4 +59,12 @@ body
     grid-template-rows: 1fr; 
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+  }
+  .elsoan{
+    animation-duration: 5s;
+    animation-delay: 3s;
+    transition-duration: 6s;
+    transform:translateX(500px)  ;
+    transition-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
   }
