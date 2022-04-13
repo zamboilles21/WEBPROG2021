@@ -56,22 +56,23 @@ h1{
   a{
       color: white;
       border: white 3px solid;
-
+    text-decoration: none;
   }
   a:hover{
-      color: violet;
-      background-color: turquoise;
+      
       animation-name: example;
      animation-duration: 15s;
+     font-size: xx-large;
      animation-iteration-count: infinite;
-     width: 1000px; height: fit-content; 
+     width: 160px; height: fit-content; 
+
   }
   @keyframes example {
-    0%   {background-color: red;}
-    25%  {background-color: yellow;}
-    50%  {background-color: blue;}
-    75% {background-color: pink;}
-    100% {background-color: green;}
+    0%   {background-color: red; color: black;}
+    25%  {background-color: yellow; color: blue;}
+    50%  {background-color: blue;color: chartreuse;}
+    75% {background-color: pink; color: darkcyan;}
+    100% {background-color: green;color: greenyellow;}
   }
   h4{
       text-align: justify;
@@ -117,5 +118,8 @@ h1{
   }
   .kozepkep:hover{transform: rotate(360deg);
     transition-duration: 5s;
-    width: 380px; height: fit-content;}
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+    width: 380px; height: auto;}
   
